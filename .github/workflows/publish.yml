@@ -1,7 +1,5 @@
 name: Publish image to GHCR
 on:
-  push:
-    branches: [solution]
   workflow_dispatch:
 permissions:
   contents: read
